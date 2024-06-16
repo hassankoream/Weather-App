@@ -1,0 +1,208 @@
+/*  start global */
+:root {
+    --color-white: #fff;
+    --card-one-bg: #323544;
+    --card-one-date: #2D303D;
+    --card-two-bg: #222530;
+    --card-two-date: #262936;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+}
+
+a,
+span {
+    display: inline-block;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*  end global */
+/* Start nav */
+
+
+nav{
+    background-color: #1E202B;
+    box-shadow: 0px 2px 20px 10px rgba(0, 0, 0, 0.4);
+
+}
+
+
+
+.navbar-toggler:focus{
+ box-shadow: 0 0 0 0 !important;
+
+}
+.mynav-item {
+    
+}
+.mynav-item{
+    transition: all 0.3s ease-in-out;
+    /* padding-inline: 20px; */
+    padding: 1px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    border: 1px #1E202B solid ;
+   
+    
+    
+    
+    }
+.mynav-item{
+    color: var(--color-white);
+}
+.mynav-item:hover a{
+    color: #009AD3;
+}
+
+.mynav-item:hover{
+border-color: #009AD3;
+
+
+
+
+}
+.logo{
+    cursor: pointer;
+}
+.logo img{
+    width: 60px;
+    height: 40px;
+    margin-right: 10px;
+}
+.logo span{
+    font-size: 10px;
+}
+.my-active{
+    border: 1px #009AD3 solid ;
+    color: #009AD3;
+
+}
+/* End nav */
+/* start header */
+.main-content .col-12{
+    margin-top: -100px;
+    border-radius: 0px;
+    color: #B6BFC8;
+    
+   
+   
+}
+.bg-color {
+    background-color: #1E202B;
+ 
+}
+
+.bg-image {
+    background: url(../images/banner.png);
+    background-position: 20% 0%;
+    background-size: cover;
+    height: 40%;
+}
+
+.find-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    margin: 0px 0 0px 0;
+    padding-inline: 40px;
+    padding-block: 5px;
+}
+
+.userSearch {
+    padding: 10px 0px 10px 30px;
+}
+
+.wind-info img {
+    width: 20px;
+}
+
+.weather-info .todayTemp {
+    font-size: 5rem;
+}
+
+.row .form-control {
+    border: none;
+    height: 60px;
+    color: white;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.bg-1 {
+    background-color: var(--card-one-bg);
+}
+
+.bg-2 {
+    background-color: var(--card-two-bg);
+}
+
+.bg-1-date {
+    background-color: var(--card-one-date);
+}
+
+.bg-2-date {
+    background-color: var(--card-two-date);
+}
+
+
+
+/* end header */
+
+
+
+
+
+
+/* Start Footer */
+
+
+
+footer {
+    background-color: #262936;
+}
+
+.footer-icons .social-icon {
+
+    width: 40px;
+    height: 40px;
+    background-color: #1E202B;
+
+    border-radius: 50%;
+    transition: all 0.3S;
+    color: #009AD3;
+    margin-inline: 5px;
+}
+
+.footer-icons .social-icon:hover {
+    background-color: #009AD3;
+    color: #fff;
+}
